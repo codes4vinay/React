@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./App.css";
 
 function App() {
-  let [counter, setCounter] = useState(5);
+  let [counter, setCounter] = useState(5);  //Use of hooks to update the UI
 
   const addValue = () => {
     setCounter(counter + 1);
