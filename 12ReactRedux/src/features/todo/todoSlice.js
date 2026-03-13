@@ -1,5 +1,4 @@
 import { createSlice, nanoid } from "@reduxjs/toolkit";
-import { act } from "react";
 
 const initialState = {
     todos: [{ id: 1, text: "hello world" }]
